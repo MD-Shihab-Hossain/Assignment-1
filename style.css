@@ -12,11 +12,6 @@ main {
   font-optical-sizing: auto;
   font-style: normal;
 }
-
-/* Body background */
-body {
-  background: rgba(245, 248, 255, 0.7);
-}
 /* Shared Button Style */
 .btn {
   padding: 12px 36px;
@@ -26,8 +21,18 @@ body {
   border-radius: 10px;
   color: #ffffff;
   cursor: pointer;
-}
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+  transform-origin: center;
 
+}
+.btn:hover {
+  transform: scale(1.08);
+  background-color: #3028ff;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
 
 /* Header Section */
 header {
@@ -218,9 +223,10 @@ header {
   width: 100%;
 }
 .get-in-touch-title {
-  font-size: 65px;
+  font-size: 75px;
   font-weight: bold;
   color: #252432;
+  
 }
 .get-in-touch-form {
   width: 100%;
