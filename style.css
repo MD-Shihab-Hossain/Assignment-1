@@ -156,12 +156,12 @@ header {
   margin-bottom: 50px;
   text-align: center;
 }
-.box-shapes {
+.shapes {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
 }
-.box-shape {
+.shape {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   padding: 24px;
   border-radius: 14px;
@@ -169,17 +169,17 @@ header {
   flex: 1;
   min-width: 280px;
 }
-.box-shadow {
+.shape-shadow {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
-.box-shape h5 {
+.shape h5 {
   font-size: 24px;
   font-weight: 600;
   margin-top: 24px;
   margin-bottom: 10px;
   color: #1e1e1e;
 }
-.box-shape p {
+.shape p {
   color: #1e1e1e;
 }
 .reviewer {
@@ -200,5 +200,56 @@ header {
 .reviewer p {
   font-size: 16px;
   color: #b3b3b3;
+}
+
+/* Get in Touch Section */
+.get-in-touch {
+  display: flex;
+  gap: 115px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  max-width: 1270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.get-in-touch > div {
+  width: 100%;
+}
+.get-in-touch-title {
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+}
+.get-in-touch-form {
+  width: 100%;
+}
+.get-in-touch-form label,
+.get-in-touch-form input,
+.get-in-touch-form textarea {
+  display: block;
+  width: 100%;
+}
+.get-in-touch-form input {
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  padding-left: 24px;
+  font-size: 18px;
+}
+.get-in-touch-form textarea {
+  height: 150px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  padding-left: 24px;
+  font-size: 18px;
+}
+.get-in-touch-form label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #252432;
 }
 
